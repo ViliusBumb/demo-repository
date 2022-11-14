@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    height: 45vh;
+    background-image: url("https://progudauri.ge/wp-content/uploads/2022/08/new-gudauri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.topKeliones {
+    text-align: center;
+    margin: 30px;
+    color: rgb(249, 169, 96);
+    font-weight: bold;
+
+}
+
+.topKelionesBorder {
+    border-bottom: 4px solid rgb(249, 169, 96);
+    padding-bottom: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.offersRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.offerCard {
+
+    width: 350px;
+
+    margin: 35px;
+    border: 1px solid rgb(164, 164, 164);
+    border-radius: 15px;
+}
+
+
+.cardImg {
+    height: 220px;
+    /* margin-bottom: 15px; */
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+
+.offerCardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.offerCardFooter {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    margin: 8px;
+    display: flex;
+    color: rgb(234, 208, 184);
+    align-items: center;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.priceText {
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 3px;
+    margin-top: 6px;
+    font-weight: bolder;
+
+}
+
+.locationText {
+    display: flex;
+    align-items: center;
+    color: rgb(234, 208, 184);
+    font-weight: bolder;
+
+}
+
+.location {
+    margin: 8px;
+
+    color: rgb(234, 208, 184);
+    align-items: center;
+    font-size: 20px;
+}
+
+.offerOne {
+    background-image: url(https://as01.epimg.net/deportes_accion/imagenes/2021/04/12/snow/1618223466_873012_1618223736_noticia_normal_recorte1.jpg);
+
+
+}
+
+.offerTwo {
+    background-image: url(https://www.snowindustrynews.com/media/3478/audi-nines-wide.jpg);
+}
+
+.offerThree {
+    background-image: url(https://coresites-cdn-adm.imgix.net/whitelines_new/wp-content/uploads/2021/04/A9W21_080421_Action_Group_MarkusKeller_AndreHoeflich_TheoAcworth-5552_WEB.jpg?fit=crop);
+}
+
+
+.offerCard h3 {
+    padding: 12px;
+}
+
+.readMore {
+    padding: 15px;
+    color: rgb(153, 147, 147);
+
+}
+
+
+.offerCard a {
+    background-color: rgb(38, 130, 215);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.offerCard a:hover {
+    filter: brightness(80%);
+}
+
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: black;
+    font-size: 10px;
+}
+
+
+
+.textBtn {
+    padding: 12px;
+    color: rgb(153, 147, 147);
+
+}
+
+.fillStar {
+    color: orange;
+    width: 20px;
+    margin: 1px;
+
+}
+
+.fillStarPadding {
+    padding-left: 40px;
+}
+
+
+
+.backgroundTeam {}
+
+.ContainerTeam {
+    background-image: url(/src/nuotraukos/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.imgContainer {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+
+}
+
+.personImg {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.review {
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.quoteIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    color: rgb(38, 130, 215);
+}
+
+.author {
+    margin-bottom: 4px;
+    font-size: 20px;
+    color: white;
+}
+
+.job {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: rgb(38, 130, 215);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.type {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: rgb(38, 130, 215);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text {
+    margin-bottom: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+.leftBtn,
+.rightBtn {
+    color: rgb(38, 130, 215);
+    font-size: 25px;
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.leftBtn :hover {
+    filter: brightness(80%);
+}
+
+.rightBtn :hover {
+    filter: brightness(80%);
+}
+
+.teamText {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+}

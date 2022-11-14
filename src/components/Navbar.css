@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navBarItems {
+    position: fixed;
+
+
+
+}
+
+.navBarLinks {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    justify-content: space-around;
+    top: 0;
+
+
+}
+
+.navBtn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+    font-size: 25px;
+}
+
+
+.navBarLinks a {
+    color: rgb(124, 160, 192);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 450;
+    padding: 15px;
+    border: 1px solid transparent;
+
+}
+
+.navBarLinks a:hover {
+    color: rgb(38, 130, 215);
+    font-weight: bolder;
+    background: rgba(38, 130, 215, 0.1);
+    border-color: rgb(38, 130, 215);
+    border-radius: 30px;
+}
+
+
+.BsFacebook {
+    padding-right: 5px;
+}
+
+
+header .navBtn {
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    header .navBtn {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        transition: 3s;
+        transform: translateY(-100vh);
+        z-index: 99;
+    }
+
+    header .responsive_nav {
+        transform: none;
+    }
+
+    nav .navCloseBtn {
+        position: absolute;
+        top: 1px;
+        right: 1px;
+    }
+
+
+
+    /* nav a {
+        font-size: 1.5rem;
+    } */
+}

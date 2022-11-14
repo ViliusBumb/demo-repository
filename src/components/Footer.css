@@ -1,0 +1,26 @@
+.Footer {
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.FooterContact {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 30px;
+    padding: 2;
+    justify-content: center;
+}
+
+.FooterRights {
+    display: flex;
+    margin-bottom: 30x;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
