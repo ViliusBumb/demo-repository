@@ -16,9 +16,7 @@ export default function Home() {
             <div className='topKeliones'>
                 <a className='topKelionesBorder'>Top Kelionės</a>
             </div>
-
             <div className='offersRow'>
-
                 <div className='offerCard'>
                     <div className='cardImg offerOne'>
                         <div className='locationText'>

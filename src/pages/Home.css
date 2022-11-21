@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    align-items: start;
 }
 
 
@@ -45,6 +45,7 @@
     border: 1px solid rgb(164, 164, 164);
     border-radius: 15px;
 }
+
 
 
 .cardImg {
@@ -177,7 +178,7 @@
 
 
 
-.backgroundTeam {}
+
 
 .ContainerTeam {
     background-image: url(/src/nuotraukos/sunset.jpg);

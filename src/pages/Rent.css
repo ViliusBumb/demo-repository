@@ -1,0 +1,73 @@
+.rentColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 180px;
+    margin-right: 180px;
+
+
+}
+
+.paddingH3 {
+    width: 100%;
+}
+
+.RentText {
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.RentTextTwo {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.RentTextthree {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.rentRow {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.boardRent {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    box-shadow: 5px 8px rgb(219 235 255);
+    margin: 40px 0px 40px 0px;
+}
+
+.rentPrice {
+    color: blue;
+    font-weight: bolder;
+}
+
+.priceFlex {
+    width: 100%;
+    display: flex;
+}
+
+.priceFlex>p {
+    display: flex;
+
+    justify-content: center;
+    margin-left: auto;
+}
+
+.rentInfo {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.rentInfo>p {
+    display: flex;
+    width: 1000px;
+    padding: 5px;
+}

@@ -1,0 +1,142 @@
+.backgroundTwo {
+    height: 35vh;
+    background-image: url("https://progudauri.ge/wp-content/uploads/2022/08/new-gudauri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+
+
+.offerCountries {
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    box-shadow: 2px 5px rgb(219, 235, 255);
+    position: relative;
+    bottom: 47px;
+    background-color: white;
+}
+
+
+.container {
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.containerBorder {
+    justify-content: center;
+    display: flex;
+    border-radius: 35px;
+    padding: 28px;
+    box-shadow: 2px 5px rgb(219, 235, 255);
+    position: relative;
+    bottom: 47px;
+    background-color: white;
+}
+
+.filterText {
+    padding: 7px 20px 7px 20px;
+    color: rgb(164, 164, 164);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.containerBorder :hover {
+    color: rgb(249, 169, 96);
+    font-weight: bolder;
+
+}
+
+.test55 {
+    height: 220px;
+    width: 349px;
+    /* margin-bottom: 15px; */
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+
+}
+
+.locationTextAbsolute {
+    display: flex;
+    align-items: center;
+    color: rgb(234, 208, 184);
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+}
+
+.leavingDate {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 12px;
+}
+
+.datePadding {
+    padding-left: 5px;
+}
+
+.rowOffers {
+    display: inline-flex;
+
+}
+
+.sectionCenter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.offerCardMargin {
+    width: 350px;
+    margin: 35px 70px 35px 70px;
+    border: 1px solid rgb(164, 164, 164);
+    border-radius: 15px;
+}
+
+.offerCardMargin h3 {
+    padding: 12px;
+}
+
+.offerCardMargin a {
+    background-color: rgb(38, 130, 215);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 15px;
+    display: inline-flex;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.offerCardMargin a:hover {
+    filter: brightness(80%);
+}
+
+.descText {
+    padding: 12px;
+    color: rgb(153, 147, 147);
+
+}
+
+
+.active-btn {
+    color: rgb(249, 169, 96);
+    font-weight: bolder;
+
+}
+
+.contentOffferCard {
+    align-items: flex-start;
+}
+
+.cardFooterOffer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

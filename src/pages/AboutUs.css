@@ -1,0 +1,49 @@
+.rentColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 180px;
+    margin-right: 180px;
+
+
+}
+
+.paddingH3 {
+    width: 100%;
+}
+
+.aboutsUsText {
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.aboutsUsText {
+
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.aboutUsTextTwo {
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.BiCheckClass {
+    color: blue;
+    margin-right: 35px;
+    font-size: 30px;
+}
+
+.AboutUsFooter {
+    margin: 25px 0 15px 0px;
+}
+
+.AboutUsVideo {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 15px 0px;
+
+}

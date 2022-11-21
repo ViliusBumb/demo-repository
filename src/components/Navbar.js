@@ -1,4 +1,4 @@
-import styles from './Navbar.css'
+import './Navbar.css'
 import { useRef } from 'react'
 import { BsFacebook, BsInstagram } from 'react-icons/bs'
 import { FaBars, FaTimes } from 'react-icons/fa'
@@ -16,8 +16,8 @@ export default function Navbar() {
 
         <header>
             <nav ref={navRef} className='navBarLinks'>
-                <a className="navBarText" href='/'>Slidinėjimo kelionės</a>
-                <a className="navBarText" href='Planuok Pats'>Planuok Pats</a>
+                <a className="navBarText" href='/'>Pagrindinis</a>
+                <a className="navBarText" href='Slidinėjimo kelionės'>Slidinėjimo kelionės</a>
                 <a className="navBarText" href='Nuoma'>Nuoma</a>
                 <a className="navBarText" href='Apie Mus'>Apie Mus</a>
                 <a className="navBarText" href='Kontaktai'>Kontaktai</a>

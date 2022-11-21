@@ -9,6 +9,7 @@
 
 
 
+
 }
 
 .navBarLinks {
@@ -20,20 +21,9 @@
     background-color: white;
     justify-content: space-around;
     top: 0;
+    z-index: 999;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .3);
 
-
-}
-
-.navBtn {
-    padding: 5px;
-    cursor: pointer;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: var(--textColor);
-    visibility: hidden;
-    opacity: 0;
-    font-size: 25px;
 }
 
 
@@ -62,19 +52,18 @@
 
 
 header .navBtn {
+    display: none;
     padding: 5px;
     cursor: pointer;
     background-color: transparent;
     border: none;
     outline: none;
-    visibility: hidden;
-    opacity: 0;
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 1024px) {
     header .navBtn {
-        visibility: visible;
-        opacity: 1;
+        display: block;
     }
 
     header nav {
@@ -87,7 +76,7 @@ header .navBtn {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1.5rem;
+        gap: 18px;
         transition: 3s;
         transform: translateY(-100vh);
         z-index: 99;
@@ -102,10 +91,4 @@ header .navBtn {
         top: 1px;
         right: 1px;
     }
-
-
-
-    /* nav a {
-        font-size: 1.5rem;
-    } */
 }

@@ -4,7 +4,81 @@
     margin: 0;
 }
 
-h1 {
-    color: red;
-    margin-top: 20px;
+.backgroundTwo {
+    height: 35vh;
+    background-image: url("https://progudauri.ge/wp-content/uploads/2022/08/new-gudauri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.backgroundContactUs {
+    background-image: url(/src/nuotraukos/Snowboarder-PhotoRoom.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: 70% 50%;
+    background-size: 1200px 530px;
+
+
+
+}
+
+.contactsRow {
+    display: flex;
+    justify-content: left;
+    margin-left: 300px;
+
+}
+
+
+.contactsText {
+    padding: 20px 0px 35px 0px;
+
+}
+
+
+
+.contactsInput {
+    font-size: 18px;
+    margin-bottom: 15px;
+    resize: none;
+    border-radius: 25px;
+    padding: 12px;
+    padding-left: 20px;
+    width: 500px;
+}
+
+.contactsInputBtn {
+    font-size: 18px;
+    margin-bottom: 15px;
+    resize: none;
+    border-radius: 25px;
+    padding: 12px;
+    padding-left: 20px;
+    width: 500px;
+    background-color: rgb(38, 130, 215);
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+.contactsInputBtnHover :hover {
+    filter: brightness(80%);
+}
+
+.tableText {
+    resize: none;
+    font-size: 20px;
+    height: 260px;
+    width: 500px;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
